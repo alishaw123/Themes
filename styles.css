@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, "sans serif";
+    margin: 0;
+    padding: 0;
+}
+
+.themes {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 0.2em;
+    border-bottom: 1px solid gray;
+}
+
+.theme-picker {
+    cursor: pointer;
+    border: solid black 3px;
+    color: purple;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: gray;
+    margin: 1rem 20%;
+    padding: 0.5em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+p {
+    margin: 1em;
+}
